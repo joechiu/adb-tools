@@ -7,7 +7,7 @@ adb-tools provides an alternative efficient way to build the Android apps by com
 
 ## Code
 
-These tools written by Bourne Shell. It is easy for maintainance and updates.
+These tools written by Bourne Shell in Ubuntu 14.04.
 
 ## Prerequisition Installation
 
@@ -18,10 +18,16 @@ In order to run these tools you would search the following utilities/tools exist
 * bash
 * gradlew
 
+You probably need to use whereis command to check the utility existence. 
+eg. whereis adb
 
 ## Test and Run
-
-Describe and show how to run the tests with code examples.
+1. copy the tools from bin to your local directory and change the mode to 755 for each of them
+2. export your local directory so these tools are executable. eg. export PATH="$PATH:/your directory"
+3. change directory to the Android project. eg. cd ~/android/dev/MyAPP
+4. compile/run the app: adb-run
+5. install the apk to your mobile: adb-install
+6. uninstall the app in your mobile: adb-uninstall
 
 ## Contributors
 
