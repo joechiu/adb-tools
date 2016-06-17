@@ -30,6 +30,8 @@ eg. whereis adb
 5. install the apk to your mobile: adb-install
 6. uninstall the app in your mobile: adb-uninstall
 
+## Snapshots
+![Alt text](/joechiu/adb-tools/blob/master/snapshots/adb-run-snapshot.png?raw=true "adb-run")
 ## Contributors
 
 You are free to update these tools to make them more helpful.
