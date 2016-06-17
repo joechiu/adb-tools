@@ -18,7 +18,7 @@ In order to run these tools you would search the following utilities/tools exist
 * bash
 * gradlew
 
-You probably need to use whereis command to check the utility existence. 
+You probably need to use whereis command to check the utility existence. <br>
 eg. whereis adb
 
 ## Test and Run
