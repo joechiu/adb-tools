@@ -1,5 +1,6 @@
 # adb-tools
-Tools for complile, install and uninstall Android apps by Bourne shell commands
+
+Tools available to complile, install and uninstall Android apps by Bourne shell commands
 
 ## Synopsis
 
@@ -29,6 +30,17 @@ eg. whereis adb
 4. compile/run the app: adb-run
 5. install the apk to your mobile: adb-install
 6. uninstall the app in your mobile: adb-uninstall
+
+## Snapshots
+
+* adb-run<br>
+![adb-run](https://raw.githubusercontent.com/joechiu/adb-tools/master/snapshots/adb-run-snapshot.png "adb-run snapshot")
+
+* adb-install<br>
+![adb-install](https://raw.githubusercontent.com/joechiu/adb-tools/master/snapshots/adb-install-snapshot.png "adb-install snapshot")
+
+* adb-uninstall<br>
+![adb-uninstall](https://raw.githubusercontent.com/joechiu/adb-tools/master/snapshots/adb-uninstall-snapshot.png "adb-uninstall snapshot")
 
 ## Contributors
 
