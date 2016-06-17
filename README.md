@@ -31,7 +31,9 @@ eg. whereis adb
 6. uninstall the app in your mobile: adb-uninstall
 
 ## Snapshots
-![Alt text](/joechiu/adb-tools/blob/master/snapshots/adb-run-snapshot.png?raw=true "adb-run")
+
+![adb-run](https://github.com/joechiu/adb-tools/blob/master/snapshots/adb-run-snapshot.png)
+
 ## Contributors
 
 You are free to update these tools to make them more helpful.
