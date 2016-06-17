@@ -1,0 +1,21 @@
+#!/bin/sh
+
+S=config.inc
+
+PATH=$(dirname "$0")
+
+[ -f $PATH/$S ] || { echo "configuration $S not found"; exit; }
+
+. "$PATH/$S"
+
+[ -z "${NCO}" ] && { echo "configuration $S not included"; exit; }
+
+[ -f $G ] || { echo "${RED}$G not found${NCO}"; exit; }
+
+echo "${BBLUE}/bin/bash $G assembleDebug${NOC}"
+$BSH $G assembleDebug 2>&1
+
+RES=$?
+
+[ $RES -eq 0 ] && echo "${BLUE}compiled - $RES${NCO}" || 
+    echo "${RED}compile failed - $RES${NCO}";

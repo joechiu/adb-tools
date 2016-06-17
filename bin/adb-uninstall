@@ -1,0 +1,24 @@
+#!/bin/sh
+
+S=config.inc
+
+PATH=$(dirname "$0")
+
+[ -f $PATH/$S ] || { echo "configuration $S not found"; exit; }
+
+. "$PATH/$S"
+
+[ -z "${NCO}" ] && { echo "configuration $S not included"; exit; }
+
+PN=`$AWK '/applicationId/ {print $2}' app/build.gradle`
+echo "${YELLOW}uninstall $PN${NCO}"
+
+[ -z $PN ] && { echo "${RED}No package name found${NCO}"; exit; }
+
+# the input is the package name instead of the app name, eg. com.whs
+$ADB shell pm uninstall -k $PN 
+
+RES=$?
+
+[ $RES -eq 0 ] && echo "${BLUE}$PN uninstalled - $RES${NCO}" || 
+    echo "${RED}$1 cannot be uninstalled - $RES${NCO}";

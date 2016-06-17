@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo adb kill-server
+echo adb start-server

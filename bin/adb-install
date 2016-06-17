@@ -1,0 +1,15 @@
+#!/bin/sh
+
+S=config.inc
+
+PATH=$(dirname "$0")
+
+[ -f $PATH/$S ] || { echo "configuration $S not found"; exit; }
+
+. "$PATH/$S"
+
+[ -z "${NCO}" ] && { echo "configuration $S not included"; exit; }
+
+. adb-uninstall
+
+$ADB install ./app/build/outputs/apk/app-debug.apk
