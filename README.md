@@ -1,5 +1,6 @@
 # adb-tools
-Tools for complile, install and uninstall Android apps by Bourne shell commands
+
+Tools available to complile, install and uninstall Android apps by Bourne shell commands
 
 ## Synopsis
 
