@@ -32,7 +32,7 @@ eg. whereis adb
 
 ## Contributors
 
-You are free to update these tools to make them more helpful to commit the Android developments.
+You are free to update these tools to make them more helpful.
 
 ## License
 
