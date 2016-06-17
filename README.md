@@ -3,7 +3,7 @@ Tools for complile, install and uninstall Android apps by Bourne shell commands
 
 ## Synopsis
 
-If you are tired of using Android SDK to compile and install the apk from Linux to your mobile then these simple adb tools probably are a good choice. These tools provides an alternative yet efficient way to build the your developed Android apps to your mobile by commands instead.  
+If you are tired of using Android SDK to compile and install the apk from Linux to your mobile then these simple adb tools could be another choice. These tools provides an alternative yet efficient way to build the your developed Android apps to your mobile by commands instead.  
 
 ## Code
 
