@@ -32,7 +32,7 @@ eg. whereis adb
 
 ## Snapshots
 
-![adb-run](https://github.com/joechiu/adb-tools/blob/master/snapshots/adb-run-snapshot.png)
+![adb-run](https://github.com/joechiu/adb-tools/blob/master/snapshots/adb-run-snapshot.png "adb-run snapshot")
 
 ## Contributors
 
